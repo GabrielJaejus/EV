@@ -593,7 +593,7 @@ class _TCPHandler:
                 self.xml.Value.text = root[1][0][1][2].text
             elif "PowerDeliveryReq" in name:
                 self.xml.PowerDeliveryResponse()
-            elif "CurrentDemandReq" in name:
+            elif "CurrentDemandReq" in name:    ##여기서 계속 돔
                 self.xml.CurrentDemandResponse()
                 self.xml.CurrentMultiplier.text = root[1][0][1][0].text
                 self.xml.CurrentValue.text = root[1][0][1][2].text
