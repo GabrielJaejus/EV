@@ -1,0 +1,21 @@
+	PIB 0-0 8080 bytes
+	MAC BC:F2:AF:F3:34:4B
+	DAK 95:99:8D:8D:0C:96:90:E0:85:0F:55:AC:14:07:68:C3
+	NMK 50:D3:E4:93:3F:85:5B:70:40:78:4D:F8:15:AA:8D:B7 (HomePlugAV)
+	NID B0:F2:E6:95:66:6B:03
+	Security level 0
+	NET 
+	MFG devolo dLAN Green PHY Module [MT2489]
+	USR 
+	CCo Auto
+	MDU N/A
+source address = BC:F2:AF:F3:34:4B
+
+	network->NID = B0:F2:E6:95:66:6B:03
+	network->SNID = 13
+	network->TEI = 1
+	network->ROLE = 0x02 (CCO)
+	network->CCO_DA = BC:F2:AF:F3:34:4B
+	network->CCO_TEI = 1
+	network->STATIONS = 0
+
